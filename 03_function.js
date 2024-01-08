@@ -8,7 +8,6 @@ square(9);
 square(11);
 square(25);
 square(1023);
-
 console.log("----------------STEP2------------");
 function multiply(n1, n2, n3) {
   console.log("Given numbers are :", n1, n2, n3);
