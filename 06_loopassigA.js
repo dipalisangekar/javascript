@@ -28,7 +28,7 @@ function oddpositionedChars(string) {
   }
 }
 console.log(`Given string is:"${string1}"`);
-console.log(`Odd positioned chars in given string are`);
+console.log(`odd positioned chars in given string are`);
 oddpositionedChars(string1);
 console.log(`Given string is:"${string2}"`);
 console.log(`Odd positioned chars in given string are`);
