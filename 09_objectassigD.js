@@ -19,9 +19,32 @@ console.log("================STEP 1===============");
 
   console.log("============New Property STEP4=============");
   professor.totalExperience = "14 years";
-  console.log(professor);
-
-  console.log("============ STEP5=============");
+  console.log(JSON.stringify(professor));
+  
+  console.log("============ Modify age STEP5=============");
   professor.age = 45;
   console.log(professor);
-  
+
+  console.log("============Add certificate STEP6=============");
+
+  certificates.splice(2,0,"Oracle certified");
+  console.log(certificates);
+
+
+  console.log("============Add last element of certificate STEP7 =============");
+  let lastElement = certificates.pop();
+  console.log(`Last element of certificates is: "${lastElement}"`);
+
+  console.log("============Complete object STEP8 =============");
+    for (const key in professor) {
+        if (Object.hasOwnProperty.call(professor,key)) {
+            const element = professor[key];
+            console.log(`key=>${key}, values=>${element} `);
+        }
+    }
+    console.log("============Traverse Array STEP 9 =============");
+    for (const element of certificates) {
+        console.log(element);
+        
+    }
+    
