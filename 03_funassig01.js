@@ -7,15 +7,15 @@ message();
 
 console.log("-----------------------STEP2-----------------------");
 function personalDetails(firstName, lastName, collegeName) {
-  var firstName = "Dipali";
-  lastName = "Sangekar";
-  collegeName = "BMIT Solapur";
+  //var firstName = "Dipali";
+  //lastName = "Sangekar";
+  //collegeName = "BMIT Solapur";
   console.log("Personal Details are:");
   console.log("First name:", firstName);
   console.log("Last name:", lastName);
   console.log("Collage name:", collegeName);
 }
-personalDetails();
+personalDetails("Dipali","Sangekar","BMITSolapur");
 
 console.log("------------STEP3-------------");
 function swapValues(n1, n2) {
