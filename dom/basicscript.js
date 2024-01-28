@@ -71,6 +71,7 @@ console.log(`==========querySelectorAll() API with element name or Tag name ====
 const elementsRoles = document.querySelectorAll('.roles');
 
 for (const element of elementsRoles) {
+    
 
     console.log(element.innerHTML);
 
@@ -87,8 +88,6 @@ projectElement.innerHTML = "Project Title: College Management System";
 console.log(`==== Applying CSS properties ========`);
 
 projectElement.style.color = "red";
-
- 
 
 elementP.style.fontSize = 'large';
 
@@ -128,7 +127,7 @@ elementRolesList.removeChild(elementRole3);
 //};
 const submitbutton = document.querySelector('#submit');
 submitbutton.addEventListener('dblClick', () => {
-    console.log(`===============onSubmitButtonClick clicked===================`);
+console.log(`===============onSubmitButtonClick clicked===================`);
 });
 // // alert()
 

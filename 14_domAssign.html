@@ -10,19 +10,27 @@
       <div id="overview">
         <h1>HTML and Javascript are crucial technologies </h1>
         <p>The web would not work without them....</p>
-      </div>/
-      <div id="advantage">
+      </div>
+      <div id="advantages">
         <ul>
           <li>Flexible</li>
-          <li>Available</li>
+          <li id="secondLi">Available</li>
           <li>Magical</li>
         </ul>
       </div>
     </main>
     <script>
-      const mainHeading =
-      const secondAdvantage =
-      const advDiv =
+      console.log(`===========step 1 store h1 using querySelector==========`);
+      const mainHeading = document.querySelector("h1")
+      console.log(mainHeading.innerHTML);
+      
+      console.log(`===========Step 2 store second li using queryselector=========`);
+      const secondAdvantage = document.querySelector("#secondLi")
+      console.log(secondAdvantage.innerHTML);
+      
+      console.log(`=============step 3 store div with id advantages using queryselector====`);
+      const advDiv = document.querySelector("#advantages")
+      console.log(advDiv.innerHTML);
     </script>
   </body>
 </html>
